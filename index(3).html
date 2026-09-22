@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dard Nawaz | Gurez Valley | Kashmir</title>
+<meta name="description" content="Dard Nawaz | Gurez Valley — photography, heritage, Shina language, Dardic culture, Kashmir history and poetry.">
+<style>
+:root{--ink:#17211b;--muted:#66736b;--paper:#f6f5ef;--card:#fff;--accent:#315d4a;--gold:#b08a45}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);line-height:1.7}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(16,28,22,.88);backdrop-filter:blur(10px);display:flex;justify-content:center;gap:28px;padding:14px}
+nav a{color:#fff;text-decoration:none;font-family:Arial,sans-serif;font-size:14px}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:90px 20px 50px;background:linear-gradient(rgba(10,28,20,.35),rgba(10,28,20,.72)),url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=2000&q=85") center/cover}
+.hero-inner{max-width:850px;color:#fff}
+.kicker{font:600 13px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#e7d3a5}
+h1{font-size:clamp(48px,10vw,92px);line-height:1.02;margin:15px 0}
+.hero p{font-size:clamp(18px,3vw,25px);max-width:680px;margin:auto}
+.btn{display:inline-block;margin-top:30px;padding:13px 25px;border:1px solid #fff;border-radius:30px;color:#fff;text-decoration:none;font-family:Arial,sans-serif}
+section{padding:85px 20px;max-width:1100px;margin:auto}
+.section-title{text-align:center;font-size:38px;margin-bottom:12px}
+.lead{text-align:center;color:var(--muted);max-width:720px;margin:0 auto 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:var(--card);padding:28px;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.06)}
+.card h3{font-size:23px;margin-bottom:8px;color:var(--accent)}
+.card p{color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.gallery div{height:230px;border-radius:12px;background-size:cover;background-position:center}
+.gallery div:nth-child(1){background-image:url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80")}
+.gallery div:nth-child(2){background-image:url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80")}
+.gallery div:nth-child(3){background-image:url("https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=900&q=80")}
+.gallery div:nth-child(4){background-image:url("https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80")}
+.gallery div:nth-child(5){background-image:url("https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=900&q=80")}
+.gallery div:nth-child(6){background-image:url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80")}
+.quote{background:#203d30;color:#fff;max-width:none;text-align:center;padding:80px 25px}
+.quote blockquote{max-width:760px;margin:auto;font-size:30px;font-style:italic}
+.quote cite{display:block;margin-top:18px;color:#d9c28d}
+.poem{font-size:20px;white-space:pre-line;text-align:center}
+footer{background:#13251c;color:#dce6df;text-align:center;padding:40px 20px;font-family:Arial,sans-serif}
+footer a{color:#d9c28d}
+@media(max-width:650px){nav{gap:12px;overflow:auto;justify-content:flex-start}nav a{font-size:12px;white-space:nowrap}.gallery{grid-template-columns:1fr 1fr}.gallery div{height:170px}}
+
+.nav-brand{color:#e7d3a5;font:700 13px Arial,sans-serif;letter-spacing:3px;margin-right:auto}
+.nav-links{display:flex;gap:24px}
+.eyebrow{text-align:center;color:var(--gold);font:700 12px Arial,sans-serif;letter-spacing:3px;margin-bottom:10px}
+.card{transition:transform .25s ease,box-shadow .25s ease;border:1px solid rgba(49,93,74,.07)}
+.card:hover{transform:translateY(-5px);box-shadow:0 14px 36px rgba(0,0,0,.10)}
+.hero{background-attachment:fixed}
+.contact-section{text-align:center;background:#eeeDE5;max-width:none}
+.contact-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:25px}
+.contact-btn{display:inline-block;padding:12px 22px;border-radius:28px;background:var(--accent);color:#fff;text-decoration:none;font-family:Arial,sans-serif}
+.gallery div{transition:transform .3s ease,filter .3s ease}
+.gallery div:hover{transform:scale(1.025);filter:saturate(1.12)}
+@media(max-width:650px){nav{display:block;padding:10px 14px}.nav-brand{text-align:center;margin-bottom:8px}.nav-links{gap:16px;overflow:auto;justify-content:flex-start}.hero{background-attachment:scroll}}
+
+/* Dard Nawaz visual upgrade */
+:root{--ink:#132019;--muted:#647169;--paper:#f4f2e9;--card:#fff;--accent:#285a46;--gold:#b89552;--deep:#10251b}
+body{letter-spacing:.1px}
+nav{padding:13px 5%;justify-content:flex-start}
+.nav-brand{font-size:14px}
+.hero{min-height:92vh}
+.hero-inner{padding:30px 0}
+.hero .kicker{font-size:12px}
+.hero p{line-height:1.55}
+.btn{background:rgba(16,37,27,.28);backdrop-filter:blur(5px);transition:.25s}
+.btn:hover{background:#fff;color:#173c2c}
+section{padding:95px 20px}
+.section-title{font-size:42px}
+.card{border-radius:18px}
+.card h3{font-family:Georgia,"Times New Roman",serif}
+.card p{line-height:1.75}
+.gallery div{box-shadow:0 8px 24px rgba(0,0,0,.10)}
+.quote{padding:95px 25px;background:linear-gradient(135deg,#17392b,#285a46)}
+.quote blockquote{line-height:1.45}
+.poem{line-height:2.1;border-left:4px solid var(--gold)}
+.contact-section{padding-bottom:100px}
+.social-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:22px}
+.social-links a{padding:10px 18px;border:1px solid #c8c7bb;border-radius:24px;text-decoration:none;color:var(--accent);font-family:Arial,sans-serif;font-size:14px}
+.social-links a:hover{background:var(--accent);color:#fff}
+.footer-note{opacity:.8;font-size:13px}
+@media(max-width:650px){.section-title{font-size:34px}.hero{min-height:88vh}.gallery{gap:8px}}
+
+</style>
+</head>
+<body>
+<nav>
+<div class="nav-brand">DARD NAWAZ</div>
+<div class="nav-links">
+<a href="#home">Home</a><a href="#about">About</a><a href="#gurez">Gurez</a><a href="#heritage">Heritage</a><a href="#photos">Photography</a><a href="#culture">Culture</a><a href="#poetry">Poetry</a><a href="#contact">Contact</a>
+</div>
+</nav>
+
+<header class="hero" id="home">
+<div class="hero-inner">
+<div class="kicker">Kashmir • Gurez • Culture • Poetry</div>
+<h1>Dard Nawaz</h1>
+<p>Stories of mountains, memory, heritage and the people of Gurez Valley.</p>
+<a class="btn" href="#gurez">Explore Gurez</a>
+</div>
+</header>
+
+<section id="about">
+<div class="eyebrow">A PERSONAL ARCHIVE</div>
+<h2 class="section-title">About Dard Nawaz</h2>
+<p class="lead">A personal space dedicated to the landscapes, history, culture and living traditions of Kashmir, with a special connection to Gurez Valley.</p>
+<div class="grid">
+<div class="card"><h3>Photography</h3><p>Landscapes, villages, seasons and everyday life captured through the lens.</p></div>
+<div class="card"><h3>Heritage</h3><p>Exploring forgotten routes, historic places, traditional life and the stories behind them.</p></div>
+<div class="card"><h3>Literature</h3><p>Urdu poetry, ghazals, reflections and selected writings from Diwan Dard Nawaz.</p></div>
+</div>
+</section>
+
+<section id="culture">
+<div class="eyebrow">LIVING HERITAGE</div>
+<h2 class="section-title">Culture & Identity</h2>
+<p class="lead">A space for documenting the language, traditions, crafts, stories and everyday life of the people of the mountains.</p>
+<div class="grid">
+<div class="card"><h3>Shina Language</h3><p>Words, expressions, oral traditions and memories connected with the Shina speaking communities of Gurez.</p></div>
+<div class="card"><h3>Traditional Life</h3><p>Farming, village life, woolen textiles, clothing, food and seasonal traditions.</p></div>
+<div class="card"><h3>Dardic Heritage</h3><p>Stories and cultural documentation reflecting the distinctive heritage of the wider Dardic mountain region.</p></div>
+</div>
+</section>
+
+<section id="gurez">
+<h2 class="section-title">Gurez Valley</h2>
+<p class="lead">A high mountain valley of dramatic landscapes, old routes, distinctive culture and the Shina language.</p>
+<div class="grid">
+<div class="card"><h3>Razdhan Pass</h3><p>The historic gateway linking Bandipora with the high valley of Gurez.</p></div>
+<div class="card"><h3>Shina Heritage</h3><p>Language, oral traditions, architecture, dress and customs form an important part of Gurez's cultural identity.</p></div>
+<div class="card"><h3>Ancient Routes</h3><p>Gurez and the Burzil route are associated with the historic Srinagar–Gilgit connections across the mountains.</p></div>
+</div>
+</section>
+
+<section id="heritage">
+<h2 class="section-title">History & Heritage</h2>
+<p class="lead">From the waters of Wular to the mountain passes of Gurez, North Kashmir holds layers of natural and cultural history.</p>
+<div class="grid">
+<div class="card"><h3>Wular Lake</h3><p>A vast Himalayan lake whose fisheries, wetlands, birds and waterways have shaped communities around it for generations.</p></div>
+<div class="card"><h3>Silk Route Connections</h3><p>Mountain passes connected Kashmir with regions to the north through historic trade and travel corridors.</p></div>
+<div class="card"><h3>Living Traditions</h3><p>Traditional farming, woolen textiles, local food, folk memory and village life continue to tell the story of the valley.</p></div>
+</div>
+</section>
+
+<section id="photos">
+<h2 class="section-title">Photography</h2>
+<p class="lead">A visual gallery for Gurez Valley, Kashmir and the changing seasons.</p>
+<div class="gallery"><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</section>
+
+<div class="quote">
+<blockquote>“The mountains preserve what memory sometimes forgets.”</blockquote>
+<cite>— Dard Nawaz</cite>
+</div>
+
+<section id="poetry">
+<h2 class="section-title">Poetry</h2>
+<p class="lead">Selected lines from the world of Dard Nawaz.</p>
+<div class="card poem">جو غم میں نہ چھوڑے، وہی تو یار ہے
+جو دل سے نبھائے، وہی تو وفادار ہے
+جو مطلب میں آئے، وہ بھی کیا یار ہے
+دردؔ نواز اپنا تو وہ ہے، جو غمخوار ہے</div>
+</section>
+
+
+<section>
+  <div class="eyebrow">THE VALLEY IN MEMORY</div>
+  <h2 class="section-title">Mountains, Memory & Identity</h2>
+  <p class="lead">A growing digital archive for photographs, oral history, local traditions, historic routes and literary reflections from Gurez and North Kashmir.</p>
+  <div class="grid">
+    <div class="card"><h3>Seasons of Gurez</h3><p>Spring, summer, autumn and winter landscapes documenting the changing character of the valley.</p></div>
+    <div class="card"><h3>People & Stories</h3><p>Village memories, traditions and everyday life that give the landscape its human meaning.</p></div>
+    <div class="card"><h3>Preserving Memory</h3><p>A personal effort to record culture, language, heritage and poetry for future generations.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+<div class="eyebrow">CONNECT</div>
+<h2 class="section-title">Keep in Touch</h2>
+<p class="lead">For photography, heritage, cultural documentation and literary collaborations.</p>
+<div class="contact-actions">
+<a class="contact-btn" href="#photos">View Photography</a>
+<a class="contact-btn" href="#poetry">Read Poetry</a><div class="social-links"><a href="#contact">Facebook</a><a href="#contact">Instagram</a><a href="#contact">Cultural Archive</a></div>
+</div>
+</section>
+
+<footer>
+<p><strong>Dard Nawaz | Gurez Valley</strong></p>
+<p>Photography • Heritage • Culture • Shina • Poetry</p>
+<p class="footer-note" style="margin-top:12px">© 2026 Dard Nawaz • Gurez Valley, Kashmir</p>
+</footer>
+</body>
+</html>
